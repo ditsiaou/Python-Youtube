@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""
+
+@author: Second_profile
+"""
+
+# Boolean (λογικές)
+
+# Θέτουμε μία μεταβλητή α = True
+a=True
+
+# Θέτουμε μία μεταβλητή b = False
+b=False
+
+# Προσθέτουμε τις μεταβλητές a,b
+c=a+b
+
+# Προσθέτουμε τις μεταβλητές a+1 ,b+4 σε δύο νέες μεταβλητές
+d=a+1
+e=b+4
+
+print(d==e)
+print(d<e)
+print(d>e)
+print(d!=e)
