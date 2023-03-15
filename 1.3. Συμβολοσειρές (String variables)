@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""
+
+
+@author: Second_profile
+"""
+# Να εισαχθεί σε μία μεταβλητή το όνομα του Messi (Lionel) και σε μία το επίθετο του
+name='Lionel'
+surname='Messi'
+
+# Να εκτυπωθεί το ονοματεπώνυμο του Μέσι
+full_name= name +' '+ surname
+#print(full_name)
+#Να εκτυπωθεί το ονοματεπώνυμο του Μέσι ως 'lionel messi'
+low=full_name.lower()
+
+#Να εκτυπωθεί το ονοματεπώνυμο του Μέσι ως 'LIONEL MESSI'
+upp=full_name.upper()
+
+
+# Να εκτυπωθεί το ονοματεπώνυμο του Μέσι με την βοήθεια του ακριβώς προηγούμενου
+# ερωτήματος και της συνάρτησγης .title()
+
+init=upp.title()
+
+#Να εκτυπωθεί το επώνυμο του Μέσι με δύο τρόπους
+# ο ένας να είναι με την .split()
+
+way1=full_name[7:12] #full_name[7:] ταυτόσημο
+way2=full_name.split(' ')[1]
+
+
+# Να εισαχθεί από τον χρήστη η εθνικότητα του Μέσι και στην συνέχεια
+# να δημιουργηθεί το string (συμβολοσειρά) 'Lionel Messi Argentinian'
+
+inp=input('Enter Messi \'s nationality \n')
+full_name_nat= full_name+ ' '+inp
+print(full_name_nat)
