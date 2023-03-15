@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+"""
+
+@author: Second_profile
+"""
+i=1
+ii=int(i)
+iff=float(i)
+iss=str(i)
+#trial1=iss*4
+ib=bool(i)
+
+f=3.14
+fi=int(f)
+ff=float(f)
+fs=str(f)
+fb=bool(f)
+
+s='Python'
+#si=int(s)
+#sf=float(s)
+ss=str(s)
+sb=bool(s)
+
+b=True
+bi=int(b)
+bf=float(b)
+bs=str(b)
+#trial2=5*bs
+bb=bool(b)
