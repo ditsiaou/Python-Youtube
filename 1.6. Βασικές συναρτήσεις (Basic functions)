@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Second_profile
+"""
+
+# Δύναμη
+fun11=pow(2,3)
+fun12=pow(4,-1)
+fun13=pow(-5,-3) 
+fun14=pow(-5,3)
+
+# Απόλυτο
+fun21=abs(-5)
+fun22=abs(10000000)
+
+# Στρογγυλοποίηση
+fun31=round(12345.6789,1)
+fun32=round(12345.6789,2)
+fun33=round(12345.6789,60)
+fun34=round(12345.6789,-1)
+fun35=round(12345.6789,-3)
+fun36=round(12345.6789,0)
+
+# Αθροισμα
+
+fun41=sum([3.1,4.2])
+fun42=sum([3.1,4.2,6,778])
+#fun43=sum(['hjkjk',7])
+fun43=round(sum([3.1,4.2]),1)
+
+# Μέγιστο
+fun51=max([5,6,78,56,888])
+fun52=max(['First','Second','Third','Fourth'])
+#fun53=max([4,'hhjj'])
+fun54=max([4,fun31])
+
+# Ελάχιστο
+
+fun61=min([5,6,78,56,888])
+fun62=min(['First','Second','Third','Fourth'])
+#fun63=max([4,'hhjj'])
+fun64=min([4,fun31])
+
+fun71=sum([max(fun31,fun32,1),sum([4,7,fun43]),round(3.14159,2)])
+
+
+#fun51=124
