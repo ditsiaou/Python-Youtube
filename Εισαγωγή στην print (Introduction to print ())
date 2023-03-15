@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+
+@author: Second_profile
+"""
+# print() εκτύπωση
+# \n χαρακτήρας αλλαγής γραμμής
+# \τ tab
+# \b Backspace
+
+print('Hello world')
+print('Hello \nworld')
+print('Hello \tworld')
+print('Hello word')
+print('Hello worl\bd')
