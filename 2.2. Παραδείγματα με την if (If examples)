@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+"""
+
+@author: Second_profile
+"""
+
+a=1
+b='Python'
+
+if a==1:
+    print('Η μεταβλητή α ισούται με 1')
+    
+if a<2 and a>10:
+    print('a is smaller than 0 and larger than 10')
+    
+if a<2 or a>10:
+    print('a is smaller than 0 or larger than 10')
+
+if b=='python':
+    print('b=python')
+    
+if b=='Python':
+    print('b=Python')
